@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/sass/owl.carousel.min.css">
+   <link rel="stylesheet" href="assets/sass/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="assets/sass/style.css">
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg  bg-light  fixed-top py-0 navbar-color">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="./index.html"><i class='bx bx-home text-white'></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="breadcrumbs" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./award.html" id="navbarDropdownAwards" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Awards
+                    </a>
+                    <ul class="dropdown-menu  border border-dark p-3" aria-labelledby="navbarDropdownAwards">
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                      <li><a class="dropdown-item text-white rounded" href="#">Award01testtest</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./about.html" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                        <li><a class="dropdown-item" href="./about01.html">About 01</a></li>
+                        <li><a class="dropdown-item" href="./about02.html">About 02</a></li>
+                        <li><a class="dropdown-item" href="./about02.html">About 03</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Jury.html">Jury</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./FAQ.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./conference.html">Conference</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./history.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ContactUS.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GEO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ENG</a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+      <header class="header-project">
+        <img src="assets/images/header-project.jpg" class="project-image w-100" alt="">
+        <div class="project-text-color">
+            <h4 class=" p-2">ProjectName0101</h4> 
+            <p class="p-2 fs-4">ProjectName0101</p>
+          </div>
+      </header>
+
+      <div class="container mt-4 d-flex">
+        <ul id="dynamic-breadcrumbs" class="list-unstyled"></ul>
+    </div>
+    
+      <section>
+        <div class="container">
+            <div class="row ">
+                    <div class="col-12  col-md-auto  col-lg-3 mt-4 ">
+                        <a href="award.html" class="text-dark ">Award01</a>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="project.html" class="text-dark ">Nominant01</a> 
+                    </div>
+                    <div class="col-12 mx-auto col-md-auto  col-lg-8 mt-2">
+                            <div class="row justify-content-center rounded border-color-project">
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">1</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">2</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">3</button>
+                                </div>
+
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">4</button>
+                                </div>
+
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">5</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">6</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">7</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">8</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">9</button>
+                                </div>
+                                <div class=" col-1 p-2 ">
+                                    <button type="button" class="btn  btn-outline-color">10</button>
+                                </div>
+
+                            </div>
+                        </div>
+            </div>
+    </div>  
+  
+      </section>
+      <section >
+        <div class="container">
+          <div class="row">
+            <div class="">
+          <h5 class="mt-4"> What is Lorem IpWhat is Lorem Ipsum?</h5>
+          <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
+            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          </p>
+        </div>
+        <div class="">
+          <h5 class="mt-4"> What is Lorem IpWhat is Lorem Ipsum?</h5>
+          <p class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
+            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          </p>
+        </div>
+        
+      </div>
+    </div>
+      </section>
+
+ <section class="new-section-project ">
+  <div class="container ">
+    <div class="row ">
+        <div class="">
+          <div class="border-color2">
+            <div class="images-border2 ">
+              <div class="row"  >
+                <div class="col-12 col-xl-4  position-relative text-center">
+                  <img src="assets/images/border-image1.jpg" class="image-size2 " alt="">
+                    
+                </div>
+                <div class="col-12  col-xl-4  position-relative text-center"><img src="assets/images/border-image1.jpg" class="image-size2" alt="">
+                
+                </div>
+                <div class="col-12    col-xl-4  position-relative text-center"> <img src="assets/images/border-image1.jpg" class="image-size2 " alt="">
+                 
+                
+                </div>
+
+              </div>
+              <div class="row ">
+                <div class="col-12 col-xl-4  position-relative text-center">
+                  <img src="assets/images/border-image1.jpg" class="image-size2 " alt="">
+                  
+
+                </div>
+                <div class="col-12 col-xl-4  position-relative text-center"><img src="assets/images/border-image1.jpg" class="image-size2" alt="">
+                  
+                
+                </div>
+                <div class="col-12 col-xl-4  position-relative text-center"><img src="assets/images/border-image1.jpg" class="image-size2" alt=""> 
+                
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-12 col-xl-4  position-relative text-center">
+                  <img src="assets/images/jpg.jpg" class="image " alt="">
+                  
+                </div>
+               
+              </div> 
+              <div class="row">
+                <div class="col-12 col-xl-4  position-relative text-center"><img src="assets/images/border-image1.jpg" class="image-size2 " alt="">
+                  
+                </div>
+                <div class="col-12 col-xl-4  position-relative text-center"><img src="assets/images/border-image1.jpg" class="image-size2" alt="">
+                
+                
+                </div>
+                <div class="col-12 col-xl-4  position-relative text-center"> <img src="assets/images/border-image1.jpg" class="image-size2 " alt="">
+                 </div>
+              </div> 
+               
+            </div>
+            
+                 
+          
+          </div>
+          
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+ </section>
+
+ <section>
+  <div class="container">
+    <div class="row">
+      <div class="">
+    <h5 class="mt-4"> What is Lorem IpWhat is Lorem Ipsum?</h5>
+    <p class="mt-2">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
+      1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+    </p>
+  </div>
+ 
+ 
+</div>
+</div>
+</section>
+
+
+<footer class="footer-project-and-FAQ">
+<div class="container">
+  <div class="row align-items-end row-size-project-and-FAQ">
+    <div class="col-12 ">
+      <div class="row justify-content-center">
+        <div class="col-5 ">
+      <p class=" text-center text-white ">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+       
+         </p>
+        </div>
+    </div>
+    </div>
+
+  </div>
+
+</div>
